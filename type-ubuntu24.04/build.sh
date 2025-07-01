@@ -78,3 +78,4 @@ chown root:root /mnt/ubuntu24.04/rootfs/sbin/overlay-init
 mksquashfs /mnt/ubuntu24.04/rootfs "$SCRIPT_DIR/rootfs.ext4" -noappend
 
 umount /mnt/ubuntu24.04/rootfs
+         
